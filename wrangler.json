@@ -1,0 +1,5 @@
+{
+  "compatibility_date": "2024-11-15",
+  "main": "src/index.ts",
+  "name": "cfplay"
+}

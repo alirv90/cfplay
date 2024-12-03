@@ -1,0 +1,12 @@
+{
+  "name": "cfplay",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "wrangler dev --experimental-json-config"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241202.0",
+    "typescript": "^5.7.2",
+    "wrangler": "^3.91.0"
+  }
+}
