@@ -2,7 +2,8 @@
   "compilerOptions": {
     "target": "esnext",
     "lib": ["esnext"],
-    "module": "esnext",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
     "types": ["@cloudflare/workers-types", "./worker-configuration.d.ts"],
     "noEmit": true,
     "isolatedModules": true,

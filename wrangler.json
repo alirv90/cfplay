@@ -1,5 +1,5 @@
 {
   "compatibility_date": "2024-11-15",
-  "main": "src/index.ts",
+  "main": "src/cloudflare.ts",
   "name": "cfplay"
 }
