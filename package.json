@@ -2,7 +2,7 @@
   "name": "cfplay",
   "version": "0.0.1",
   "scripts": {
-    "dev:cf": "wrangler dev --experimental-json-config",
+    "dev:cloudflare": "wrangler dev --experimental-json-config",
     "dev:node": "tsx src/node.ts"
   },
   "devDependencies": {
