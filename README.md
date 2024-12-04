@@ -31,3 +31,14 @@ npx tsx ./src/vanillaStreamClient.ts
 ```
 
 Not work, Will log 1, 2, 3 one at a time
+
+## Hono with Node
+
+```
+pnpm dev:honoWithNode
+npx tsx ./src/honoWithNodeClient.ts
+```
+
+Stream will work, 1, 2, 3 will be logged after each second
+
+## But work in production
