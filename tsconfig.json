@@ -4,7 +4,11 @@
     "lib": ["esnext"],
     "module": "nodenext",
     "moduleResolution": "nodenext",
-    "types": ["@cloudflare/workers-types", "./worker-configuration.d.ts"],
+    "types": [
+      "@cloudflare/workers-types",
+      "./worker-configuration.d.ts",
+      "@types/node"
+    ],
     "noEmit": true,
     "isolatedModules": true,
     "forceConsistentCasingInFileNames": true,

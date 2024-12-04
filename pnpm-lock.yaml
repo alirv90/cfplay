@@ -14,6 +14,9 @@ importers:
       '@trpc/server':
         specifier: 11.0.0-rc.648
         version: 11.0.0-rc.648(typescript@5.7.2)
+      hono:
+        specifier: ^4.6.12
+        version: 4.6.12
       zod:
         specifier: ^3.23.8
         version: 3.23.8
@@ -21,6 +24,9 @@ importers:
       '@cloudflare/workers-types':
         specifier: ^4.20241202.0
         version: 4.20241202.0
+      '@types/node':
+        specifier: ^22.10.1
+        version: 22.10.1
       tsx:
         specifier: ^4.19.2
         version: 4.19.2
@@ -480,6 +486,10 @@ packages:
   hasown@2.0.2:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
     engines: {node: '>= 0.4'}
+
+  hono@4.6.12:
+    resolution: {integrity: sha512-eHtf4kSDNw6VVrdbd5IQi16r22m3s7mWPLd7xOMhg1a/Yyb1A0qpUFq8xYMX4FMuDe1nTKeMX5rTx7Nmw+a+Ag==}
+    engines: {node: '>=16.9.0'}
 
   is-core-module@2.15.1:
     resolution: {integrity: sha512-z0vtXSwucUJtANQWldhbtbt7BnL0vxiFjIdDLAatwhDYty2bad6s+rijD6Ri4YuYJubLzIJLUidCh09e1djEVQ==}
@@ -962,6 +972,8 @@ snapshots:
   hasown@2.0.2:
     dependencies:
       function-bind: 1.1.2
+
+  hono@4.6.12: {}
 
   is-core-module@2.15.1:
     dependencies:

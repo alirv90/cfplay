@@ -3,10 +3,12 @@
   "version": "0.0.1",
   "scripts": {
     "dev:cloudflare": "wrangler dev --experimental-json-config",
-    "dev:node": "tsx src/node.ts"
+    "dev:node": "tsx src/node.ts",
+    "dev:honoWithCloudflare": "wrangler dev --experimental-json-config --config hono-wrangler.json"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20241202.0",
+    "@types/node": "^22.10.1",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2",
     "wrangler": "^3.91.0"
@@ -14,6 +16,7 @@
   "dependencies": {
     "@trpc/client": "11.0.0-rc.648",
     "@trpc/server": "11.0.0-rc.648",
+    "hono": "^4.6.12",
     "zod": "^3.23.8"
   }
 }
