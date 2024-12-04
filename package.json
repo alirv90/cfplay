@@ -12,7 +12,7 @@
     "@types/node": "^22.10.1",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2",
-    "wrangler": "^3.91.0"
+    "wrangler": "^3.92.0"
   },
   "dependencies": {
     "@hono/node-server": "^1.13.7",

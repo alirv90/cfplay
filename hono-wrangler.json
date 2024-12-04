@@ -1,5 +1,8 @@
 {
-  "compatibility_date": "2024-11-06",
+  "name": "cfplay",
   "main": "src/honoWithCloudflare.ts",
-  "name": "cfplay"
+  "compatibility_date": "2024-11-06",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
 }
